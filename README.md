@@ -290,7 +290,7 @@ If you have any questions or need help, please:
 
 ---
 
-** Star this repo if you find it helpful!**
+**Star this repo if you find it helpful!**
 
 ## ⭐ Star History
 
