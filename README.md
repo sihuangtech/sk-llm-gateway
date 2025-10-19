@@ -290,8 +290,8 @@ If you have any questions or need help, please:
 
 ---
 
-**⭐ Star this repo if you find it helpful!**
+** Star this repo if you find it helpful!**
 
-## Star History
+## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sihuangtech/sk-llm-gateway&type=date&legend=top-left)](https://www.star-history.com/#sihuangtech/sk-llm-gateway&type=date&legend=top-left)
