@@ -1,0 +1,322 @@
+# 硅基流动SiliconFlow模型配置
+provider: "SiliconFlow"
+description: "硅基流动模型平台 - 支持丰富的语言模型和视觉理解模型"
+
+models:
+  language:
+    - name: "deepseek-ai/DeepSeek-V3.2-Exp"
+      display_name: "DeepSeek-V3.2-Exp"
+      description: "DeepSeek-V3.2 实验版本"
+      
+    - name: "Pro/deepseek-ai/DeepSeek-V3.2-Exp"
+      display_name: "Pro-DeepSeek-V3.2-Exp"
+      description: "DeepSeek-V3.2 实验版本 (Pro)"
+      
+    - name: "inclusionAI/Ling-1T"
+      display_name: "Ling-1T"
+      description: "InclusionAI Ling-1T 模型"
+      
+    - name: "zai-org/GLM-4.6"
+      display_name: "GLM-4.6"
+      description: "智谱GLM-4.6 模型"
+      
+    - name: "moonshotai/Kimi-K2-Instruct-0905"
+      display_name: "Kimi-K2-Instruct-0905"
+      description: "月之暗面Kimi-K2指令微调模型"
+      
+    - name: "Pro/deepseek-ai/DeepSeek-V3.1-Terminus"
+      display_name: "Pro-DeepSeek-V3.1-Terminus"
+      description: "DeepSeek-V3.1 Terminus版本 (Pro)"
+      
+    - name: "Qwen/Qwen3-Next-80B-A3B-Instruct"
+      display_name: "Qwen3-Next-80B-A3B-Instruct"
+      description: "通义千问3 Next 80B A3B指令微调模型"
+      
+    - name: "Qwen/Qwen3-Next-80B-A3B-Thinking"
+      display_name: "Qwen3-Next-80B-A3B-Thinking"
+      description: "通义千问3 Next 80B A3B思维模型"
+      
+    - name: "inclusionAI/Ring-flash-2.0"
+      display_name: "Ring-flash-2.0"
+      description: "InclusionAI Ring-flash-2.0"
+      
+    - name: "inclusionAI/Ling-flash-2.0"
+      display_name: "Ling-flash-2.0"
+      description: "InclusionAI Ling-flash-2.0"
+      
+    - name: "inclusionAI/Ling-mini-2.0"
+      display_name: "Ling-mini-2.0"
+      description: "InclusionAI Ling-mini-2.0"
+      
+    - name: "ByteDance-Seed/Seed-OSS-36B-Instruct"
+      display_name: "Seed-OSS-36B-Instruct"
+      description: "字节跳动Seed-OSS 36B指令微调模型"
+      
+    - name: "deepseek-ai/DeepSeek-V3.1"
+      display_name: "DeepSeek-V3.1"
+      description: "DeepSeek-V3.1 模型"
+      
+    - name: "Pro/deepseek-ai/DeepSeek-V3.1"
+      display_name: "Pro-DeepSeek-V3.1"
+      description: "DeepSeek-V3.1 模型 (Pro)"
+      
+    - name: "stepfun-ai/step3"
+      display_name: "Step-3"
+      description: "阶跃星辰Step-3 模型"
+      
+    - name: "Qwen/Qwen3-Coder-30B-A3B-Instruct"
+      display_name: "Qwen3-Coder-30B-A3B-Instruct"
+      description: "通义千问3代码生成30B A3B指令微调模型"
+      
+    - name: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+      display_name: "Qwen3-Coder-480B-A35B-Instruct"
+      description: "通义千问3代码生成480B A35B指令微调模型"
+      
+    - name: "Qwen/Qwen3-30B-A3B-Thinking-2507"
+      display_name: "Qwen3-30B-A3B-Thinking-2507"
+      description: "通义千问3 30B A3B思维模型 2507版本"
+      
+    - name: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+      display_name: "Qwen3-30B-A3B-Instruct-2507"
+      description: "通义千问3 30B A3B指令微调模型 2507版本"
+      
+    - name: "Qwen/Qwen3-235B-A22B-Thinking-2507"
+      display_name: "Qwen3-235B-A22B-Thinking-2507"
+      description: "通义千问3 235B A22B思维模型 2507版本"
+      
+    - name: "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      display_name: "Qwen3-235B-A22B-Instruct-2507"
+      description: "通义千问3 235B A22B指令微调模型 2507版本"
+      
+    - name: "zai-org/GLM-4.5-Air"
+      display_name: "GLM-4.5-Air"
+      description: "智谱GLM-4.5 Air版本"
+      
+    - name: "zai-org/GLM-4.5"
+      display_name: "GLM-4.5"
+      description: "智谱GLM-4.5 模型"
+      
+    - name: "baidu/ERNIE-4.5-300B-A47B"
+      display_name: "ERNIE-4.5-300B-A47B"
+      description: "百度文心ERNIE-4.5 300B A47B模型"
+      
+    - name: "ascend-tribe/pangu-pro-moe"
+      display_name: "Pangu-Pro-MoE"
+      description: "华为盘古Pro MoE模型"
+      
+    - name: "tencent/Hunyuan-A13B-Instruct"
+      display_name: "Hunyuan-A13B-Instruct"
+      description: "腾讯混元A13B指令微调模型"
+      
+    - name: "MiniMaxAI/MiniMax-M1-80k"
+      display_name: "MiniMax-M1-80k"
+      description: "MiniMax M1 80k上下文模型"
+      
+    - name: "Tongyi-Zhiwen/QwenLong-L1-32B"
+      display_name: "QwenLong-L1-32B"
+      description: "通义智文QwenLong L1 32B模型"
+      
+    - name: "Qwen/Qwen3-30B-A3B"
+      display_name: "Qwen3-30B-A3B"
+      description: "通义千问3 30B A3B模型"
+      
+    - name: "Qwen/Qwen3-32B"
+      display_name: "Qwen3-32B"
+      description: "通义千问3 32B模型"
+      
+    - name: "Qwen/Qwen3-14B"
+      display_name: "Qwen3-14B"
+      description: "通义千问3 14B模型"
+      
+    - name: "Qwen/Qwen3-8B"
+      display_name: "Qwen3-8B"
+      description: "通义千问3 8B模型"
+      
+    - name: "Qwen/Qwen3-235B-A22B"
+      display_name: "Qwen3-235B-A22B"
+      description: "通义千问3 235B A22B模型"
+      
+    - name: "THUDM/GLM-Z1-32B-0414"
+      display_name: "GLM-Z1-32B-0414"
+      description: "智谱GLM-Z1 32B 0414版本"
+      
+    - name: "THUDM/GLM-4-32B-0414"
+      display_name: "GLM-4-32B-0414"
+      description: "智谱GLM-4 32B 0414版本"
+      
+    - name: "THUDM/GLM-Z1-Rumination-32B-0414"
+      display_name: "GLM-Z1-Rumination-32B-0414"
+      description: "智谱GLM-Z1沉思32B 0414版本"
+      
+    - name: "THUDM/GLM-4-9B-0414"
+      display_name: "GLM-4-9B-0414"
+      description: "智谱GLM-4 9B 0414版本"
+      
+    - name: "Qwen/QwQ-32B"
+      display_name: "QwQ-32B"
+      description: "通义千问QwQ 32B模型"
+      
+    - name: "Pro/deepseek-ai/DeepSeek-R1"
+      display_name: "Pro-DeepSeek-R1"
+      description: "DeepSeek-R1 推理模型 (Pro)"
+      
+    - name: "Pro/deepseek-ai/DeepSeek-V3"
+      display_name: "Pro-DeepSeek-V3"
+      description: "DeepSeek-V3 模型 (Pro)"
+      
+    - name: "deepseek-ai/DeepSeek-R1"
+      display_name: "DeepSeek-R1"
+      description: "DeepSeek-R1 推理模型"
+      
+    - name: "deepseek-ai/DeepSeek-V3"
+      display_name: "DeepSeek-V3"
+      description: "DeepSeek-V3 模型"
+      
+    - name: "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+      display_name: "DeepSeek-R1-0528-Qwen3-8B"
+      description: "DeepSeek-R1 0528版本基于Qwen3-8B"
+      
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+      display_name: "DeepSeek-R1-Distill-Qwen-32B"
+      description: "DeepSeek-R1蒸馏版Qwen-32B"
+      
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+      display_name: "DeepSeek-R1-Distill-Qwen-14B"
+      description: "DeepSeek-R1蒸馏版Qwen-14B"
+      
+    - name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+      display_name: "DeepSeek-R1-Distill-Qwen-7B"
+      description: "DeepSeek-R1蒸馏版Qwen-7B"
+      
+    - name: "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+      display_name: "Pro-DeepSeek-R1-Distill-Qwen-7B"
+      description: "DeepSeek-R1蒸馏版Qwen-7B (Pro)"
+      
+    - name: "deepseek-ai/DeepSeek-V2.5"
+      display_name: "DeepSeek-V2.5"
+      description: "DeepSeek-V2.5 模型"
+      
+    - name: "Qwen/Qwen2.5-72B-Instruct-128K"
+      display_name: "Qwen2.5-72B-Instruct-128K"
+      description: "通义千问2.5 72B指令微调模型 128K上下文"
+      
+    - name: "Qwen/Qwen2.5-72B-Instruct"
+      display_name: "Qwen2.5-72B-Instruct"
+      description: "通义千问2.5 72B指令微调模型"
+      
+    - name: "Qwen/Qwen2.5-32B-Instruct"
+      display_name: "Qwen2.5-32B-Instruct"
+      description: "通义千问2.5 32B指令微调模型"
+      
+    - name: "Qwen/Qwen2.5-14B-Instruct"
+      display_name: "Qwen2.5-14B-Instruct"
+      description: "通义千问2.5 14B指令微调模型"
+      
+    - name: "Qwen/Qwen2.5-7B-Instruct"
+      display_name: "Qwen2.5-7B-Instruct"
+      description: "通义千问2.5 7B指令微调模型"
+      
+    - name: "Qwen/Qwen2.5-Coder-32B-Instruct"
+      display_name: "Qwen2.5-Coder-32B-Instruct"
+      description: "通义千问2.5代码生成32B指令微调模型"
+      
+    - name: "Qwen/Qwen2.5-Coder-7B-Instruct"
+      display_name: "Qwen2.5-Coder-7B-Instruct"
+      description: "通义千问2.5代码生成7B指令微调模型"
+      
+    - name: "Qwen/Qwen2-7B-Instruct"
+      display_name: "Qwen2-7B-Instruct"
+      description: "通义千问2 7B指令微调模型"
+      
+    - name: "THUDM/glm-4-9b-chat"
+      display_name: "GLM-4-9B-Chat"
+      description: "智谱GLM-4 9B对话模型"
+      
+    - name: "internlm/internlm2_5-7b-chat"
+      display_name: "InternLM2.5-7B-Chat"
+      description: "书生浦语InternLM2.5 7B对话模型"
+      
+    - name: "Pro/Qwen/Qwen2.5-7B-Instruct"
+      display_name: "Pro-Qwen2.5-7B-Instruct"
+      description: "通义千问2.5 7B指令微调模型 (Pro)"
+      
+    - name: "Pro/Qwen/Qwen2-7B-Instruct"
+      display_name: "Pro-Qwen2-7B-Instruct"
+      description: "通义千问2 7B指令微调模型 (Pro)"
+      
+    - name: "Pro/THUDM/glm-4-9b-chat"
+      display_name: "Pro-GLM-4-9B-Chat"
+      description: "智谱GLM-4 9B对话模型 (Pro)"
+      
+  vision:
+    - name: "Qwen/Qwen3-VL-8B-Instruct"
+      display_name: "Qwen3-VL-8B-Instruct"
+      description: "通义千问3视觉理解8B指令微调模型"
+      
+    - name: "Qwen/Qwen3-VL-8B-Thinking"
+      display_name: "Qwen3-VL-8B-Thinking"
+      description: "通义千问3视觉理解8B思维模型"
+      
+    - name: "Qwen/Qwen3-VL-30B-A3B-Instruct"
+      display_name: "Qwen3-VL-30B-A3B-Instruct"
+      description: "通义千问3视觉理解30B A3B指令微调模型"
+      
+    - name: "Qwen/Qwen3-VL-30B-A3B-Thinking"
+      display_name: "Qwen3-VL-30B-A3B-Thinking"
+      description: "通义千问3视觉理解30B A3B思维模型"
+      
+    - name: "Qwen/Qwen3-VL-235B-A22B-Instruct"
+      display_name: "Qwen3-VL-235B-A22B-Instruct"
+      description: "通义千问3视觉理解235B A22B指令微调模型"
+      
+    - name: "Qwen/Qwen3-VL-235B-A22B-Thinking"
+      display_name: "Qwen3-VL-235B-A22B-Thinking"
+      description: "通义千问3视觉理解235B A22B思维模型"
+      
+    - name: "Qwen/Qwen3-Omni-30B-A3B-Instruct"
+      display_name: "Qwen3-Omni-30B-A3B-Instruct"
+      description: "通义千问3全模态30B A3B指令微调模型"
+      
+    - name: "Qwen/Qwen3-Omni-30B-A3B-Thinking"
+      display_name: "Qwen3-Omni-30B-A3B-Thinking"
+      description: "通义千问3全模态30B A3B思维模型"
+      
+    - name: "Qwen/Qwen3-Omni-30B-A3B-Captioner"
+      display_name: "Qwen3-Omni-30B-A3B-Captioner"
+      description: "通义千问3全模态30B A3B图像描述模型"
+      
+    - name: "zai-org/GLM-4.5V"
+      display_name: "GLM-4.5V"
+      description: "智谱GLM-4.5视觉理解模型"
+      
+    - name: "Pro/THUDM/GLM-4.1V-9B-Thinking"
+      display_name: "Pro-GLM-4.1V-9B-Thinking"
+      description: "智谱GLM-4.1V 9B视觉思维模型 (Pro)"
+      
+    - name: "THUDM/GLM-4.1V-9B-Thinking"
+      display_name: "GLM-4.1V-9B-Thinking"
+      description: "智谱GLM-4.1V 9B视觉思维模型"
+      
+    - name: "Qwen/Qwen2.5-VL-32B-Instruct"
+      display_name: "Qwen2.5-VL-32B-Instruct"
+      description: "通义千问2.5视觉理解32B指令微调模型"
+      
+    - name: "Qwen/Qwen2.5-VL-72B-Instruct"
+      display_name: "Qwen2.5-VL-72B-Instruct"
+      description: "通义千问2.5视觉理解72B指令微调模型"
+      
+    - name: "Qwen/QVQ-72B-Preview"
+      display_name: "QVQ-72B-Preview"
+      description: "通义千问QVQ 72B预览版"
+      
+    - name: "deepseek-ai/deepseek-vl2"
+      display_name: "DeepSeek-VL2"
+      description: "DeepSeek-VL2 视觉理解模型"
+      
+    - name: "Qwen/Qwen2-VL-72B-Instruct"
+      display_name: "Qwen2-VL-72B-Instruct"
+      description: "通义千问2视觉理解72B指令微调模型"
+      
+    - name: "Pro/Qwen/Qwen2.5-VL-7B-Instruct"
+      display_name: "Pro-Qwen2.5-VL-7B-Instruct"
+      description: "通义千问2.5视觉理解7B指令微调模型 (Pro)"

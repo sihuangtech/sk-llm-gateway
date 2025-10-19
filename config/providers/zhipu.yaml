@@ -1,0 +1,22 @@
+# 智谱AI模型配置
+provider: "ZhipuAI"
+description: "智谱AI大模型平台"
+
+models:
+  language:
+    - name: "glm-4"
+      display_name: "GLM-4"
+      description: "智谱AI GLM-4旗舰版模型"
+      
+    - name: "glm-4-air"
+      display_name: "GLM-4-Air"
+      description: "智谱AI GLM-4轻量版模型"
+      
+    - name: "glm-4-flash"
+      display_name: "GLM-4-Flash"
+      description: "智谱AI GLM-4极速版模型"
+      
+  vision:
+    - name: "glm-4v"
+      display_name: "GLM-4V"
+      description: "智谱AI GLM-4视觉理解模型"

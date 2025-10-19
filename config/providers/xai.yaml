@@ -1,0 +1,41 @@
+# xAI Grok模型配置
+provider: "xAI"
+description: "xAI Grok系列模型"
+
+models:
+  language:
+    # Grok 4 系列
+    - name: "grok-4"
+      display_name: "Grok 4"
+      description: "世界最智能的模型，支持原生工具使用和实时搜索集成，256K上下文窗口"
+      
+    - name: "grok-4-fast-reasoning"
+      display_name: "Grok 4 Fast (推理模式)"
+      description: "成本效率最优的推理模型，2M token上下文窗口，使用40%更少的思考tokens"
+      
+    - name: "grok-4-fast-non-reasoning"
+      display_name: "Grok 4 Fast (非推理模式)"
+      description: "快速响应模式，2M token上下文窗口，适合实时应用"
+      
+    - name: "grok-code-fast-1"
+      display_name: "Grok Code Fast 1"
+      description: "专为编码优化的模型，256K上下文窗口，低延迟低成本，支持函数调用和结构化输出"
+    
+    # Grok 3 系列
+    - name: "grok-3-beta"
+      display_name: "Grok 3 Beta"
+      description: "前代旗舰模型，强大的世界知识和性能，支持推理模式"
+      
+    - name: "grok-3-mini-beta"
+      display_name: "Grok 3 Mini Beta"
+      description: "快速且经济的小型模型，适合预算敏感的应用，支持reasoning_effort参数"
+      
+  vision:
+    # Grok 4 支持多模态
+    - name: "grok-4"
+      display_name: "Grok 4 Vision"
+      description: "多模态模型，支持文本和图像输入，256K上下文窗口"
+      
+    - name: "grok-3-beta"
+      display_name: "Grok 3 Beta Vision"
+      description: "前代多模态模型"

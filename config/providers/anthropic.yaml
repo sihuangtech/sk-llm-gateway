@@ -1,0 +1,66 @@
+# Anthropic Claude模型配置
+provider: "Anthropic"
+description: "Anthropic Claude系列模型"
+
+models:
+  language:
+    # Claude 4.5系列模型
+    - name: "claude-sonnet-4-5-20250929"
+      display_name: "Claude Sonnet 4.5"
+      description: "世界最强编码模型，支持长达30小时的自主工作，在SWE-bench Verified上表现最佳"
+      
+    - name: "claude-haiku-4-5-20251015"
+      display_name: "Claude Haiku 4.5"
+      description: "快速且经济的小型模型，性能接近Sonnet 4，速度提升2倍，成本降低三分之一"
+
+    # Claude 4.0系列模型
+    - name: "claude-opus-4-1-20250805"
+      display_name: "Claude Opus 4.1"
+      description: "最强大的Claude模型，改进的代码生成、搜索推理和指令遵循能力"
+      
+    - name: "claude-sonnet-4-20250522"
+      display_name: "Claude Sonnet 4"
+      description: "智能高效的日常使用模型，混合模型支持快速响应和深度推理"
+      
+    - name: "claude-opus-4-20250522"
+      display_name: "Claude Opus 4"
+      description: "强大的编码模型，在SWE-bench上得分72.5%，支持长达数小时的持续工作"
+    
+    # Claude 3.5系列模型
+    - name: "claude-sonnet-3-7-20250219"
+      display_name: "Claude Sonnet 3.7"
+      description: "混合推理模型，支持快速响应和逐步推理"
+    
+    - name: "claude-3-5-sonnet-20241022"
+      display_name: "Claude 3.5 Sonnet"
+      description: "编程能力突出的高性能模型"
+      
+    - name: "claude-3-5-haiku-20241022"
+      display_name: "Claude 3.5 Haiku"
+      description: "快速且经济的模型"
+      
+    - name: "claude-3-haiku-20240307"
+      display_name: "Claude 3 Haiku"
+      description: "最快速的轻量级模型"
+      
+  vision:
+    # 所有Claude 4系列模型都支持视觉能力
+    - name: "claude-sonnet-4-5-20250929"
+      display_name: "Claude Sonnet 4.5 Vision"
+      description: "最强视觉理解模型，支持图像和文本输入"
+      
+    - name: "claude-opus-4-1-20250805"
+      display_name: "Claude Opus 4.1 Vision"
+      description: "最强大的多模态模型"
+      
+    - name: "claude-sonnet-4-20250522"
+      display_name: "Claude Sonnet 4 Vision"
+      description: "高效的视觉理解模型"
+      
+    - name: "claude-haiku-4-5-20251015"
+      display_name: "Claude Haiku 4.5 Vision"
+      description: "快速且经济的视觉理解模型"
+      
+    - name: "claude-3-5-sonnet-20241022"
+      display_name: "Claude 3.5 Sonnet Vision"
+      description: "高性能视觉理解模型"

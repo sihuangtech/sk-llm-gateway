@@ -1,0 +1,22 @@
+# 百度文心千帆模型配置
+provider: "Baidu"
+description: "百度文心千帆大模型平台"
+
+models:
+  language:
+    - name: "ERNIE-Speed-8K"
+      display_name: "文心-Speed 8K"
+      description: "百度文心大模型，支持8K上下文长度"
+      
+    - name: "ERNIE-3.5-8K"
+      display_name: "文心-3.5 8K"
+      description: "百度文心3.5版本，性能优异"
+      
+    - name: "ERNIE-4.0-8K"
+      display_name: "文心-4.0 8K"
+      description: "百度文心4.0旗舰版模型"
+      
+  vision:
+    - name: "ERNIE-Vision-V4.0"
+      display_name: "文心-Vision V4.0"
+      description: "百度文心视觉理解模型V4.0"

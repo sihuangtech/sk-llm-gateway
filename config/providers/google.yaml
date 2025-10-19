@@ -1,0 +1,60 @@
+# Google Gemini模型配置
+provider: "Google"
+description: "Google Gemini系列模型"
+
+models:
+  language:
+    # Gemini 2.5 系列 (最新稳定版)
+    - name: "gemini-2.5-pro"
+      display_name: "Gemini 2.5 Pro"
+      description: "最强大的AI模型,具备思考能力,擅长代码生成和复杂推理,支持1M token上下文窗口"
+      
+    - name: "gemini-2.5-flash"
+      display_name: "Gemini 2.5 Flash"
+      description: "性价比最佳的工作马模型,具备思考能力,适合大规模处理和代理应用"
+      
+    - name: "gemini-2.5-flash-lite"
+      display_name: "Gemini 2.5 Flash-Lite"
+      description: "快速、低成本、高性能的Gemini 2.5模型"
+    
+    # Gemini 2.0 系列
+    - name: "gemini-2.0-pro"
+      display_name: "Gemini 2.0 Pro"
+      description: "第二代最强大的代码模型,支持2M token上下文窗口,原生工具使用能力"
+      
+    - name: "gemini-2.0-flash"
+      display_name: "Gemini 2.0 Flash"
+      description: "第二代工作马模型,支持1M token上下文窗口,原生工具使用能力"
+      
+    - name: "gemini-2.0-flash-lite"
+      display_name: "Gemini 2.0 Flash-Lite"
+      description: "优化了成本效率和低延迟的Gemini 2.0 Flash模型"
+    
+    # 实验/预览版本 (仅用于原型开发)
+    - name: "gemini-2.0-pro-exp"
+      display_name: "Gemini 2.0 Pro (实验版)"
+      description: "实验性模型,最强代码性能和复杂提示处理能力,支持2M token上下文窗口"
+      experimental: true
+      
+  vision:
+    # 所有Gemini 2.x模型都支持多模态输入
+    - name: "gemini-2.5-pro"
+      display_name: "Gemini 2.5 Pro Vision"
+      description: "最强大的多模态模型,支持文本、图像、音频、视频输入"
+      
+    - name: "gemini-2.5-flash"
+      display_name: "Gemini 2.5 Flash Vision"
+      description: "高性价比的多模态模型"
+      
+    - name: "gemini-2.0-flash"
+      display_name: "Gemini 2.0 Flash Vision"
+      description: "第二代多模态工作马模型"
+      
+  embedding:
+    - name: "gemini-embedding-001"
+      display_name: "Gemini Embedding 001"
+      description: "稳定版文本嵌入模型,用于语义搜索、分类和聚类"
+      
+    - name: "text-embedding-004"
+      display_name: "Text Embedding 004"
+      description: "Google文本嵌入模型"

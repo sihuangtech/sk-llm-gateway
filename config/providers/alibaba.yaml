@@ -1,0 +1,26 @@
+# 阿里巴巴通义千问模型配置
+provider: "Alibaba"
+description: "阿里巴巴通义千问系列模型"
+
+models:
+  language:
+    - name: "qwen-turbo"
+      display_name: "通义千问-Turbo"
+      description: "通义千问超大规模语言模型，支持中文和英文，免费可用"
+      
+    - name: "qwen-plus"
+      display_name: "通义千问-Plus"
+      description: "通义千问增强版语言模型，性能更强"
+      
+    - name: "qwen-max"
+      display_name: "通义千问-Max"
+      description: "通义千问旗舰版模型，最新最强版本"
+      
+  vision:
+    - name: "qwen-vl-plus"
+      display_name: "通义千问-VL Plus"
+      description: "通义千问视觉理解模型，支持图像理解和描述"
+      
+    - name: "qwen-vl-max"
+      display_name: "通义千问-VL Max"
+      description: "通义千问增强版视觉理解模型"

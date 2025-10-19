@@ -1,0 +1,39 @@
+[project]
+name = "backend-llm"
+version = "0.1.0"
+description = "CaiQiTalk LLM Service Backend"
+authors = [
+    { name = "SK Studio" }
+]
+requires-python = ">=3.10"
+
+# （可选）如果项目要发布到 PyPI，可以加这些：
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["fastapi", "llm", "backend", "gradio", "openai"]
+
+# 注意：PEP 621 标准要求 dependencies 必须是数组 (list)
+# 每个依赖项都是符合 PEP 508 的字符串
+dependencies = [
+    "fastapi >= 0.119.0",
+    "uvicorn[standard] >= 0.38.0",
+    "openai >= 2.5.0",
+    "gradio >= 5.49.1",
+    "python-dotenv >= 1.1.1",
+    "pyyaml >= 6.0.3",
+    "pydantic >= 2.11.10",
+    "pydantic-settings >= 2.11.0",
+]
+
+# 运行开发服务器: uv run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+# 运行生产服务器: uv run gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app -b 0.0.0.0:8000
+
+[tool.uv.pip]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+# （可选）指定入口（uvicorn启动命令不会自动生成）
+# dynamic = ["version"]  # 如果版本号自动生成，可以加上这行
+
+# [build-system]
+# requires = ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"

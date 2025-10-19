@@ -1,0 +1,6 @@
+{
+    "active_language_model_provider": "SiliconFlow",
+    "active_language_model": "deepseek-ai/DeepSeek-V3",
+    "active_vision_model_provider": "SiliconFlow",
+    "active_vision_model": "deepseek-ai/deepseek-vl2"
+}

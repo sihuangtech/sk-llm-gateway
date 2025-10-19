@@ -1,0 +1,68 @@
+
+# 厂商基础配置 - OpenAI 兼容接口统一配置
+# 所有厂商都使用 OpenAI 兼容的接口格式
+providers:
+  - name: "Alibaba"
+    api_key_env: "DASHSCOPE_API_KEY"
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    description: "阿里巴巴通义千问大模型"
+    
+  - name: "Baidu"
+    api_key_env: "QIANFAN_API_KEY"  # 简化：使用单个 API Key
+    base_url: "https://qianfan.baidubce.com/v2"  # OpenAI 兼容接口
+    description: "百度文心千帆大模型平台"
+    
+  - name: "Tencent"
+    api_key_env: "HUNYUAN_API_KEY"  # 简化：使用单个 API Key
+    base_url: "https://api.hunyuan.cloud.tencent.com/v1"  # OpenAI 兼容接口
+    description: "腾讯混元大模型"
+    
+  - name: "ByteDance"
+    api_key_env: "VOLCANO_API_KEY"  # 简化：使用单个 API Key
+    base_url: "https://ark.cn-beijing.volces.com/api/v3"  # OpenAI 兼容接口
+    description: "字节跳动豆包大模型"
+    
+  - name: "ZhipuAI"
+    api_key_env: "ZHIPU_API_KEY"
+    base_url: "https://open.bigmodel.cn/api/paas/v4"
+    description: "智谱AI大模型平台" 
+    
+  - name: "Moonshot"
+    api_key_env: "MOONSHOT_API_KEY"
+    base_url: "https://api.moonshot.cn/v1"
+    description: "月之暗面Kimi大模型"
+    
+  - name: "DeepSeek"
+    api_key_env: "DEEPSEEK_API_KEY"
+    base_url: "https://api.deepseek.com/v1"
+    description: "深度求索DeepSeek大模型"
+    
+  - name: "SiliconFlow"
+    api_key_env: "SILICONFLOW_API_KEY"
+    base_url: "https://api.siliconflow.cn/v1"
+    description: "硅基流动聚合平台"
+    
+  - name: "Ollama"
+    api_key_env: "OLLAMA_API_KEY"
+    base_url: "http://localhost:11434/v1"
+    description: "Ollama本地部署模型"
+    
+  - name: "OpenAI"
+    api_key_env: "OPENAI_API_KEY"
+    base_url: "https://api.openai.com/v1"
+    description: "OpenAI GPT系列模型"
+    
+  - name: "Anthropic"
+    api_key_env: "ANTHROPIC_API_KEY"
+    base_url: "https://api.anthropic.com/v1"
+    description: "Anthropic Claude系列模型"
+    
+  - name: "Google"
+    api_key_env: "GOOGLE_API_KEY"
+    base_url: "https://generativelanguage.googleapis.com/v1"
+    description: "Google Gemini系列模型"
+    
+  - name: "xAI"
+    api_key_env: "XAI_API_KEY"
+    base_url: "https://api.x.ai/v1"
+    description: "xAI Grok系列模型"

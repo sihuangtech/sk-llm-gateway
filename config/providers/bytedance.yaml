@@ -1,0 +1,26 @@
+# 字节跳动豆包/火山引擎模型配置
+provider: "ByteDance"
+description: "字节跳动豆包大模型和火山引擎"
+
+models:
+  language:
+    - name: "doubao-lite-4k"
+      display_name: "豆包-Lite 4K"
+      description: "豆包轻量版模型，支持4K上下文"
+      
+    - name: "doubao-pro-4k"
+      display_name: "豆包-Pro 4K"
+      description: "豆包专业版模型，支持4K上下文"
+      
+    - name: "doubao-pro-32k"
+      display_name: "豆包-Pro 32K"
+      description: "豆包专业版模型，支持32K上下文"
+      
+  vision:
+    - name: "doubao-vision-lite"
+      display_name: "豆包-Vision Lite"
+      description: "豆包视觉理解模型轻量版"
+      
+    - name: "doubao-vision-pro"
+      display_name: "豆包-Vision Pro"
+      description: "豆包视觉理解模型专业版"

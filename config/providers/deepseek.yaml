@@ -1,0 +1,18 @@
+# 深度求索DeepSeek模型配置
+provider: "DeepSeek"
+description: "深度求索DeepSeek大模型"
+
+models:
+  language:
+    - name: "deepseek-chat"
+      display_name: "DeepSeek-Chat"
+      description: "DeepSeek对话模型"
+      
+    - name: "deepseek-coder"
+      display_name: "DeepSeek-Coder"
+      description: "DeepSeek代码生成模型"
+      
+  vision:
+    - name: "deepseek-vl-chat"
+      display_name: "DeepSeek-VL-Chat"
+      description: "DeepSeek视觉理解模型"

@@ -1,0 +1,17 @@
+# 月之暗面Kimi模型配置
+provider: "Moonshot"
+description: "月之暗面Kimi大模型"
+
+models:
+  language:
+    - name: "moonshot-v1-8k"
+      display_name: "Kimi-v1-8K"
+      description: "Kimi v1版本，支持8K上下文长度"
+      
+    - name: "moonshot-v1-32k"
+      display_name: "Kimi-v1-32K"
+      description: "Kimi v1版本，支持32K上下文长度"
+      
+    - name: "moonshot-v1-128k"
+      display_name: "Kimi-v1-128K"
+      description: "Kimi v1版本，支持128K上下文长度"

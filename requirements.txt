@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+openai
+gradio
+python-dotenv
+pyyaml
+pydantic
+pydantic-settings

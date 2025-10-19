@@ -1,0 +1,22 @@
+# 腾讯混元大模型配置
+provider: "Tencent"
+description: "腾讯混元大模型平台"
+
+models:
+  language:
+    - name: "hunyuan-pro"
+      display_name: "混元-Pro"
+      description: "腾讯混元专业版大模型"
+      
+    - name: "hunyuan-standard"
+      display_name: "混元-Standard"
+      description: "腾讯混元标准版大模型"
+      
+    - name: "hunyuan-lite"
+      display_name: "混元-Lite"
+      description: "腾讯混元轻量版大模型，免费可用"
+      
+  vision:
+    - name: "hunyuan-vision"
+      display_name: "混元-Vision"
+      description: "腾讯混元视觉理解模型"
