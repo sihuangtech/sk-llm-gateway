@@ -276,16 +276,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Repository**: https://github.com/your-username/sk-llm-gateway
+- **Repository**: https://github.com/sihuangtech/sk-llm-gateway
 - **Documentation**: [API_DOCS.md](API_DOCS.md)
-- **Issue Tracker**: https://github.com/your-username/sk-llm-gateway/issues
+- **Issue Tracker**: https://github.com/sihuangtech/sk-llm-gateway/issues
 
 ## 📞 Support
 
 If you have any questions or need help, please:
 
 1. Check the [documentation](API_DOCS.md)
-2. Search existing [issues](https://github.com/your-username/sk-llm-gateway/issues)
+2. Search existing [issues](https://github.com/sihuangtech/sk-llm-gateway/issues)
 3. Create a new issue with detailed description
 
 ---
