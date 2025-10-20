@@ -288,6 +288,10 @@ If you have any questions or need help, please:
 2. Search existing [issues](https://github.com/sihuangtech/sk-llm-gateway/issues)
 3. Create a new issue with detailed description
 
+### Community
+[![Discord](https://img.shields.io/badge/Discord-Join%20our%20Discord%20server-7289da?logo=discord&logoColor=white)](https://discord.gg/thWGWq7CwA)
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-Join%20our%20QQ%20group-12b7f5?logo=qq&logoColor=white)](https://qm.qq.com/q/WEBm0AkBKI)
+
 ---
 
 **Star this repo if you find it helpful!**

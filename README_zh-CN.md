@@ -350,6 +350,13 @@ CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "main:app", "
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
 
+## 📞 社区支持
+
+如果您有任何问题或需要帮助，欢迎加入我们的社区：
+
+[![Discord](https://img.shields.io/badge/Discord-加入我们的Discord服务器-7289da?logo=discord&logoColor=white)](https://discord.gg/thWGWq7CwA)
+[![QQ群](https://img.shields.io/badge/QQ群-加入我们的QQ群-12b7f5?logo=qq&logoColor=white)](https://qm.qq.com/q/WEBm0AkBKI)
+
 ## ⭐ 星标历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sihuangtech/sk-llm-gateway&type=date&legend=top-left)](https://www.star-history.com/#sihuangtech/sk-llm-gateway&type=date&legend=top-left)
